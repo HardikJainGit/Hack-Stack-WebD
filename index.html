@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Task</title>
+</head>
+
+<body>
+    <div class="movie-bar">
+        <div class="movie-list">
+            <img src="Moviesicon.jpg" width="40" height="40" alt="">
+            Movies
+        </div>
+        <div class="search-bar">
+            <img src="SearchIcon.png" width="25" alt="">
+            <input type="text" placeholder="Search something">
+            <button type="submit">SUBMIT</button>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+
+        <div class="content-wrapper">
+
+
+            <span class="Lists">
+                <ul>
+                    <li>Search Results</li>
+                    <li>All Team</li>
+                    <li>Core</li>
+                    <li>Developers</li>
+                    <li>Designers</li>
+                    <li>Mentors</li>
+                </ul>
+                <span class="add-button">+ ADD</span>
+
+            </span>
+
+        </div>
+       
+       
+        <div id="movie-details">
+            <div class="title">${title}</div>
+            <img src="https://image.tmdb.org/t/p/w500${poster_path}" alt="${title} Poster">
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
